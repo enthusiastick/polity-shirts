@@ -4,7 +4,7 @@ module OmniAuth
       option :name, :polity
 
       option :client_options, {
-        site: "http://localhost:3000",
+        site: "http://polity.enthusiastick.io",
         authorize_path: "/oauth/authorize"
       }
 
@@ -26,7 +26,7 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/api/v1/me').parsed["user"]
+        @raw_info ||= access_token.get("/api/v1/me").parsed["user"]
       end
     end
   end
