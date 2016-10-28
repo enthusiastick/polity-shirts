@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/enthusiastick/omniauth-polity.git
+  revision: c9536bcc235fdd90c6e31ee48ed9e01b59a580fc
+  specs:
+    omniauth-polity (0.1.0)
+      omniauth-oauth2 (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -375,6 +382,7 @@ DEPENDENCIES
   launchy
   listen (~> 3.0.5)
   omniauth-facebook
+  omniauth-polity!
   pg (~> 0.18)
   pry-rails
   puma (~> 3.0)
@@ -393,4 +401,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.1
+   1.13.5

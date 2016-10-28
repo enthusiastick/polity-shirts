@@ -9,6 +9,8 @@ gem "haml"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
 gem "omniauth-facebook"
+gem "omniauth-polity",
+  github: "enthusiastick/omniauth-polity"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.0"
 gem "rails", "~> 5.0.0", ">= 5.0.0.1"
